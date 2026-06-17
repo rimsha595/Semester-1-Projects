@@ -14,3 +14,4 @@ This repository contains projects completed during Semester 1 of my degree.
 
 ## Author
 Rimsha
+Bachelor of Science in Information Engineering Technology
