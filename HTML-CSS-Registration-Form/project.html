@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Acme-united</title>
+        <style>
+        body { /*styling of the whole form*/
+            font-family: 'Times New Roman';
+            background-color: #f4f4f4;
+            margin: 4;
+            padding: 0;
+        }
+        header { /*make the page attractive*/
+            background-color: #173ce2;
+            color: #fff;
+            font-family: Cambria;
+            text-align: center;
+            padding: 12px;
+            font-size: 150%;
+        }
+        p{
+            color: black;
+            font-size: 180%;
+            text-align: justify;
+        }
+        input[type="text"],input[type="email"],input[type="tel"]{/*for the input of the form*/
+            width: 70%;
+            box-sizing: border-box;
+            padding: 0.9%;
+            font-size: 150%;
+        }
+        label { /*size and font for the label of form*/
+            font-size: 200%;
+            font-family: Cambria;
+            
+        }
+        select{  /*selection of the specific label*/
+            width: 70%;
+            box-sizing: border-box;
+            padding: 0.9%;
+            font-size: 150%;
+        }
+        option{ /*size and font of the specific label of the form*/
+            font-size: 120%;
+            font-family: Cambria; 
+        }
+        input[type="submit"]{ /*formatting of submitting button of the form*/
+            background-color: #29cc23;
+            color: #f0f0f0;
+            font-family: Cambria;
+            text-align: center;
+            padding: 10px;
+            font-size: 150%;
+            width: 70%;
+            box-sizing: border-box;
+        }
+        textarea{ /*Text for the opnioin of the form*/
+            font-size: 150%;
+            box-sizing: border-box;
+            padding: 0%;
+            width: 70%;
+        }
+        </style>
+        </head>
+        <body>
+            <!--here we use header in our code to look good-->
+        <header>
+           <h1>Contact Us </h1>
+        </header>
+    <p>Thank you for your interest in <b>Acme United corporation</b>. 
+        If you have any question or comments, please complete the form below and we'll get back to you soon. 
+        By submitting this website form, you agree that you are not under thirteen (13) years of age.  </p>
+        <form action="*"> 
+            <!--here is the formating of the form-->
+            <label for="fname"><b>First Name</b> *</label><br>
+            <input type="text"id="fname"name="fname"placeholder="First Name"required><br>
+            <label for="lname"><b>Last Name</b> *</label><br>
+            <input type="text"id="lname"name="lname"placeholder="Last Name"required><br>
+            <label for="email"><b>E-mail</b> *</label><br>
+            <input type="email"id="email"name="email"placeholder="E-mail"required><br>
+            <label for="Gender"><b>Gender</b> *</label><br>
+            <input type="radio"name="Gender"value="male"><font style="font-size: 200%;">Male</font><br>
+            <input type="radio"name="Gender"value="female"><font style="font-size: 200%;">Female</font> <br>
+            <label for="company"><b>Company</b> *</label><br>
+            <input type="text"id="company"name="company"placeholder="Company / None"required><br>
+            <p>
+                If no company then enter "None" only. 
+            </p>
+            <label for="country"><b>Country</b> *</label><br>
+            <select name="country" id="country"required>
+                <option value="">Select Country</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="U.S.A">U.S.A</option>
+                <option value="India">India</option>
+                <option value="U.K">U.K</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Germany">Germany</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="california">California</option>
+                <option value="canada">Canada</option>
+            </select><br> 
+            <label for="City"><b>City</b> *</label><br>
+            <input type="text"id="City"name="City"placeholder="City"required><br>
+            <label for="Pnumber"><b>Phone Number</b> *</label><br>
+            <input type="tel"id="Pnumber"name="Pnumber"placeholder="Phone Number"required><br>
+            <label for="Address"><b>Address</b> *</label><br>
+            <input type="text"id="Address"name="Address"placeholder="Address"required><br>
+            <label for="Cadress"><b>Current Address</b> *</label><br>
+            <input type="text"id="Caddress"name="Caddress"placeholder="Current Address"required><br>
+            <label for="Inquiry Type"><b>Inquiry-Type</b> *</label><br>
+            <select name="Inquiry Type" id="Inquiry Type"required>
+                <option value="">Select Inquiry Type</option>
+                <option value="GInquiry">General Inquiry</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Support">Support</option>
+            </select><br>
+            <label for="message"><b>Message</b> *</label><br>
+            <textarea name="message" id="message" cols="124" rows="5"placeholder="Write Message"required></textarea>
+            <input type="submit" value="submit"><br>
+        </form>
+        <br>
+        <br>
+    </body>
+</html>
+
+<header></header>
